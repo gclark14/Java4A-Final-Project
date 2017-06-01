@@ -106,7 +106,6 @@ public class Directory {
         }
         
         for(j = 0; j < students.size(); j++){
-            // so cheaky
             courses.get(j % importCourses.size()).addStudent((Student) students.get(j));
         }
     }
